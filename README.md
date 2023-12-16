@@ -1,9 +1,9 @@
 # MMT
 
-This is the official implementation for the paper "EMP: Emotion-guided Multi-modal Fusion and Contrastive
-Learning for Personality Traits Recognition".
+This is the official implementation for the paper "FINE-LMT: Fine-grained Feature Learning
+for Multi-Modal Machine Translation".
 
-# Structure of EMP
+# Structure of FINE-LMT
 ![image](modelstructure.PNG)
 
 ## Requirement
