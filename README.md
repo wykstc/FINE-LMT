@@ -4,7 +4,7 @@ This is the official implementation for the paper "EMP: Emotion-guided Multi-mod
 Learning for Personality Traits Recognition".
 
 # Structure of EMP
-![image](modelstructure.png)
+![image](modelstructure.PNG)
 
 ## Requirement
 - Python  3.9.17
