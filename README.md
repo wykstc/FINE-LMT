@@ -15,7 +15,8 @@ for Multi-Modal Machine Translation".
 Because it is the first, fast version of our project, we hope you can put "FeatureAlignment.py" in "/fairseq/fairseq/models", "language_pair_dataset.py" in "/fairseq/fairseq/data", "orthogonalLoss.py" in "/fairseq/fairseq/modules" and "multimodal_translation.py" in "/fairseq/fairseq/tasks".
 
 ## Data
-The processed text data is provided in the data-bin file and image feature is provided in xxx.
+- The processed text data is provided in the data-bin file.
+- Image feature can be obtained by using "imageFeatureExtraction.py". The original feature data can be download at [Flickr](https://www.statmt.org/wmt17/multimodal-task.html) and [Multi30k](https://github.com/multi30k/dataset)
 
 ### Train the model
 ```
