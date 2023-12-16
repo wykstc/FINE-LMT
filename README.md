@@ -22,7 +22,7 @@ The processed text data is provided in the data-bin file and image feature is pr
 bash train.sh
 ```
 
-### evaluate the model
+### Evaluate the model
 When evaluate the model, please use the correponding image index in the "language_pair_dataset.py" file.
 ```
 bash test.sh
