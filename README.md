@@ -16,7 +16,7 @@ Because it is the first, fast version of our project, we hope you can put "Featu
 
 ## Data
 - The processed text data is provided in the data-bin file.
-- Image feature can be obtained by using "imageFeatureExtraction.py". The original feature data can be download at [Flickr](https://www.statmt.org/wmt17/multimodal-task.html) and [Multi30k](https://github.com/multi30k/dataset)
+- Image feature can be obtained by using "imageFeatureExtraction.py". The original image data can be download at [Flickr](https://www.statmt.org/wmt17/multimodal-task.html) and [Multi30k](https://github.com/multi30k/dataset)
 
 ### Train the model
 ```
