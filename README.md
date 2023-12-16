@@ -14,7 +14,7 @@ Learning for Personality Traits Recognition".
 ## File 
 Because it is the first, fast version of our project, we hope you can put "FeatureAlignment.py" in "/fairseq/fairseq/models", "language_pair_dataset.py" in "/fairseq/fairseq/data", "orthogonalLoss.py" in "/fairseq/fairseq/modules" and "multimodal_translation.py" in "/fairseq/fairseq/tasks".
 
-##Data
+## Data
 The processed text data is provided in the data-bin file and image feature is provided in xxx.
 
 ### Train the model
