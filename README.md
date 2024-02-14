@@ -10,9 +10,11 @@ for Multi-Modal Machine Translation".
 - Python  3.9.17
 - Pytorch 1.13.1
 - Fairseq 0.12.2
+The detailed environment configuration is provided in environments.yaml.
 
 ## File 
 Because it is the first, fast version of our project, we hope you can put "FeatureAlignment.py" in "/fairseq/fairseq/models", "language_pair_dataset.py" in "/fairseq/fairseq/data", "orthogonalLoss.py" in "/fairseq/fairseq/modules" and "multimodal_translation.py" in "/fairseq/fairseq/tasks".
+If you want to implement pre-trained language model-based FINE-LMT, please refer to [VGAMT]([https://www.statmt.org/wmt17/multimodal-task.html](https://github.com/MatthieuFP/VGAMT)) and replace the file "fine-lmt-plm.py" with "vgamt.py".
 
 ## Data
 - The processed text data is provided in the data-bin file.
