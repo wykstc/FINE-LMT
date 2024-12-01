@@ -1,7 +1,6 @@
 # MMT
 
-This is the official implementation for the paper "FINE-LMT: Fine-grained Feature Learning
-for Multi-Modal Machine Translation".
+This is the official implementation for the paper "FINE-LMT: Fine-grained Feature Learning for Multi-Modal Machine Translation" accepted by PRICAI2024. 
 
 # Structure of FINE-LMT
 ![image](modelstructure.PNG)
@@ -32,4 +31,30 @@ CUDA_VISIBLE_DEVICES=0 python fairseq/fairseq_cli/generate.py \
 fairseq/data-bin/multi30k_en_de/test2016 --task MultimodalT --path fairseq/model/MMTSaved/123456.ensemble.pt --beam 5 --lenpen 1 --batch-size 128 --remove-bpe
 CUDA_VISIBLE_DEVICES=0 python fairseq/fairseq_cli/generate.py \
 fairseq/data-bin/multi30k_en_de/test2016 --task MultimodalT --scoring meteor --path fairseq/model/MMTSaved/123456.ensemble.pt --beam 5 --lenpen 1 --batch-size 128 --remove-bpe
+```
+## Citation
+If this repository is useful for you, please cite as:
+```
+@InProceedings{10.1007/978-981-96-0119-6_32,
+author="Wang, Yusong
+and Zhang, Ying
+and Li, Dongyuan
+and Shen, Jialun
+and Xu, Yicheng
+and Xu, Mingkun
+and Funakoshi, Kotaro
+and Okumura, Manabu",
+editor="Hadfi, Rafik
+and Anthony, Patricia
+and Sharma, Alok
+and Ito, Takayuki
+and Bai, Quan",
+title="FINE-LMT: Fine-Grained Feature Learning for Multi-modal Machine Translation",
+booktitle="PRICAI 2024: Trends in Artificial Intelligence",
+year="2025",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="334--346",
+}
+
 ```
